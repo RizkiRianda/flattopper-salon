@@ -1,0 +1,157 @@
+﻿/* Responsive CSS */
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 28px;
+}
+
+nav.active ul {
+    display: flex !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 95%;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 80px 6%;
+    }
+
+    .about {
+        gap: 40px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .counter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+    }
+
+    .maps {
+        padding: 70px 6%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header .container {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background: #111;
+        padding: 20px;
+        gap: 15px;
+        z-index: 999;
+    }
+
+    nav.active ul {
+        display: flex;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 50px 6%;
+    }
+
+    .service-card img {
+        height: 220px;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        width: 100%;
+    }
+
+    .whatsapp {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    .about {
+        padding: 40px 5%;
+    }
+
+    .counter {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-container img {
+        height: 220px;
+    }
+
+    .maps iframe {
+        height: 300px;
+    }
+}

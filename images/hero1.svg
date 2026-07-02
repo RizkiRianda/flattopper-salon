@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#fff3f8"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#g)"/>
+  <circle cx="1280" cy="220" r="180" fill="#ffd7e8"/>
+  <rect x="220" y="580" width="360" height="180" rx="30" fill="#f4c2d7"/>
+  <rect x="280" y="430" width="240" height="180" rx="28" fill="#d63384"/>
+  <rect x="310" y="360" width="180" height="90" rx="20" fill="#8c1f54"/>
+  <rect x="950" y="300" width="260" height="340" rx="40" fill="#ffffff"/>
+  <rect x="990" y="350" width="180" height="220" rx="20" fill="#f2d0dc"/>
+  <circle cx="1080" cy="330" r="54" fill="#f4c2d7"/>
+  <path d="M935 650c80-80 200-90 280-60" stroke="#d63384" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <text x="320" y="240" font-family="Poppins, Arial, sans-serif" font-size="56" font-weight="700" fill="#8c1f54">Beauty Glow Salon</text>
+  <text x="320" y="310" font-family="Poppins, Arial, sans-serif" font-size="30" fill="#5a2343">Professional care for your best look</text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffecf5"/>
+      <stop offset="100%" stop-color="#ffd4e8"/>
+    </linearGradient>
+  </defs>
+</svg>
