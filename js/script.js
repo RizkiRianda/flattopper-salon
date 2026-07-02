@@ -65,8 +65,37 @@ const menuToggle=document.querySelector(".menu-toggle");
 const nav=document.querySelector("nav");
 
 if(menuToggle && nav){
+    const menuIcon = menuToggle.querySelector('i');
+
     menuToggle.addEventListener("click",()=>{
         nav.classList.toggle("active");
+        if(menuIcon){
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-xmark');
+        }
+    });
+
+    // close menu when a nav link is clicked
+    const navLinks = nav.querySelectorAll('a');
+    navLinks.forEach(link=>{
+        link.addEventListener('click', ()=>{
+            nav.classList.remove('active');
+            if(menuIcon){
+                menuIcon.classList.add('fa-bars');
+                menuIcon.classList.remove('fa-xmark');
+            }
+        });
+    });
+
+    // close menu when clicking outside
+    document.addEventListener('click', (e)=>{
+        if(nav.classList.contains('active') && !nav.contains(e.target) && !menuToggle.contains(e.target)){
+            nav.classList.remove('active');
+            if(menuIcon){
+                menuIcon.classList.add('fa-bars');
+                menuIcon.classList.remove('fa-xmark');
+            }
+        }
     });
 }
 //================ NAVBAR SCROLL =================
