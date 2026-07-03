@@ -177,6 +177,20 @@ section{
 
     padding:100px 10%;
 
+    scroll-margin-top:100px;
+
+}
+
+.scroll-anchor{
+
+    display:block;
+
+    height:0;
+
+    visibility:hidden;
+
+    scroll-margin-top:100px;
+
 }
 
 section h2{
