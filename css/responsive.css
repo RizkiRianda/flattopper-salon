@@ -139,12 +139,30 @@ nav.active ul {
 
     .hero {
         background-attachment: scroll;
-        background-position: center bottom;
+        background-position: center 30%;
         background-size: cover;
+        height: 60vh;
+    }
+
+    .overlay {
+        background: rgba(0,0,0,.15);
+    }
+
+    .hero-content {
+        padding: 20px;
     }
 
     .hero h1 {
         font-size: 36px;
+        line-height: 1.2;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(0,0,0,0.6);
+        font-weight: 700;
+    }
+
+    .hero p {
+        font-size: 14px;
+        margin: 15px 0;
+        text-shadow: 1px 1px 6px rgba(0,0,0,0.8);
     }
 
     section h2 {
