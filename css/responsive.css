@@ -139,13 +139,13 @@ nav.active ul {
 
     .hero {
         background-attachment: scroll;
-        background-position: center 30%;
+        background-position: right 20%;
         background-size: cover;
         height: 60vh;
     }
 
     .overlay {
-        background: rgba(0,0,0,.15);
+        background: rgba(0,0,0,.05);
     }
 
     .hero-content {
