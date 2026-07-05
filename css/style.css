@@ -107,6 +107,16 @@ nav a:hover{
 
     position:relative;
 
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    filter: brightness(1.1) contrast(1.3) saturate(1.15) drop-shadow(0 0 1px rgba(0,0,0,0.1));
+
+    image-rendering: crisp-edges;
+
 }
 
 .overlay{
@@ -115,7 +125,7 @@ nav a:hover{
 
     height:100%;
 
-    background:rgba(0,0,0,.55);
+    background:rgba(0,0,0,.35);
 
     display:flex;
 
@@ -432,9 +442,13 @@ footer{
 
     width:100%;
 
-    height:250px;
+    height:200px;
 
-    object-fit:cover;
+    object-fit:contain;
+
+    background:#f5f5f5;
+
+    padding:20px;
 
 }
 
