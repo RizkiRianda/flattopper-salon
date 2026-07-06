@@ -143,9 +143,9 @@ nav.active ul {
 
     .hero {
         background-attachment: scroll;
-        background-position: center top;
-        background-size: cover;
-        height: 60vh;
+        background-position: center 40%;
+        background-size: 110% auto;
+        height: 65vh;
     }
 
     .overlay {
